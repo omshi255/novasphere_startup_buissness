@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Star } from "lucide-react"
 import { SectionWrapper, SectionHeading } from "./section-wrapper"
-
+import TeamSection from "./team"  
 const testimonials = [
   {
     name: "Arjun Mehta",
@@ -40,6 +40,7 @@ export function Testimonials() {
   }, [])
 
   return (
+ <>
     <SectionWrapper>
       <div className="mx-auto max-w-3xl">
         <SectionHeading title="What Clients Say" />
@@ -145,5 +146,9 @@ export function Testimonials() {
         </motion.div>
       </div>
     </SectionWrapper>
+
+    <TeamSection/>
+ 
+ </>
   )
 }

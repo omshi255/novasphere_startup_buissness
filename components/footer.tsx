@@ -132,7 +132,7 @@ export function Footer() {
             viewport={{ once: true }}
             transition={{ delay: 0.35 }}
           >
-            {"© 2024 NovaSphere Digital. Built with love in Indore, India."}
+            {"© NovaSphere Digital. Built with love in Indore, India."}
           </motion.p>
         </motion.div>
       </div>

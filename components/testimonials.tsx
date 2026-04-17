@@ -4,7 +4,6 @@ import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Star } from "lucide-react"
 import { SectionWrapper, SectionHeading } from "./section-wrapper"
-import TeamSection from "./team"  
 const testimonials = [
   {
     name: "Arjun Mehta",
@@ -147,7 +146,6 @@ export function Testimonials() {
       </div>
     </SectionWrapper>
 
-    <TeamSection/>
  
  </>
   )
